@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API_Project</title>
+</head>
+<body>
+    <marquee behavior="alternate">THIS WEBSITE IS MADE FOR FUN PURPOSE WHICH USES API</marquee>
+    <div class="container">
+    <h1>Enter your name </h1><br>
+<input type="text" name="" placeholder="NAME" id="nameid">
+  <br>
+  <button>Confirm</button> 
+  <br><br>
+  <img src="img_api.jpg" alt="img"><br>
+  
+  
+  </div>
+</body>
+<script src="jquery_codes.js"></script>
+<script>
+    $(document).ready(function(){
+        $('button').click(function(){
+          const name= $('#nameid').val();
+          alert(name);
+          $('img').attr('src',`https://joeschmoe.io/api/v1/${name}`)
+
+
+        });
+
+    });
+</script>
+</html>

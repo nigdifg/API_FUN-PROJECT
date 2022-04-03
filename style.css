@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body{
+    padding: 50px;
+    background-color: rgb(130, 134, 134);
+}
+marquee{
+    color: aliceblue;
+    
+    font-weight: 400;
+}
+.container{
+    border: 5px solid yellow;
+    width: fit-content;
+    background-color: rgb(114, 82, 117);
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border: 2px solid rgb(177, 196, 117);
+}
+button{
+    color: rgb(227, 227, 227);
+    padding: 2px;
+    background-color: rgb(57, 68, 51);
+}
+
+
+button:hover{
+    transition: ease-in-out;
+    color: blanchedalmond;
+    transform: scale(1.1);
+}
